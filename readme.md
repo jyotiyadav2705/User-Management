@@ -2,30 +2,32 @@
 
 This Node.js application performs CRUD operations on users, including the generation of daily reports using cron jobs. The application uses Express.js, MySQL, Sequelize, and other dependencies.
 
-## Dependencies
+## Technologies Used
 
-```json
-{
-  "dependencies": {
-    "exceljs": "^4.4.0",
-    "express": "^4.19.2",
-    "express-validator": "^7.1.0",
-    "mysql2": "^3.9.7",
-    "node-cron": "^3.0.3",
-    "sequelize": "^6.37.3"
-  }
-}
-```
+- exceljs: 4.4.0
+- express: 4.19.2
+- express-validator: 7.1.0
+- mysql2: 3.9.7
+- node-cron: 3.0.3
+
+## Prerequisites
+- Node.js 19.9.0 or later
+- npm 
+
+## Getting Started
+
+### Steps to Run the Project
+
 
 1. **Clone the project directory:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/jyotiyadav2705/User-Management.git
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd <project-directory>
+    cd User-Management
     ```
 
 3. **Install dependencies:**
@@ -203,4 +205,8 @@ This Node.js application performs CRUD operations on users, including the genera
 ## Cron Job for Daily Report
 
 This application includes a cron job that generates a report of newly added users daily at 11:59 PM. The report is created as an Excel file and stored in the `public` folder.
+
+
+## Repository
+[GitHub Repository](https://github.com/jyotiyadav2705/User-Management.git)
 
